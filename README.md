@@ -1,4 +1,4 @@
- var $boxs = $('#main>div');   //获取box
+    var $boxs = $('#main>div');   //获取box
     var photoWidth = $boxs.eq(0).outerWidth();//获取照片宽度
     var photoNum =Math.floor( $(window).width() / photoWidth ); //得到列数
     $('#main').width(photoNum * photoWidth).css('margin','auto');
